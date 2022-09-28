@@ -15,12 +15,28 @@
       <p>Add your own images and styles!</p>
 
       <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
-      <div class="gallery-container">
-        <img class="gallery-item" src="./assets/jeff.jpg" alt="jeff watching u">
+      <div class="gallery-container" alt="shelves of bakery">
+        <div class="shelf" alt="a shelf for bakery">
+          <img class="baked-item" src="./assets/cookies.png" alt="cookies">
+          <img class="baked-item" src="./assets/donut.png" alt="donut">
+        </div>
+        <div class="shelf" alt="a shelf for bakery">
+          <img class="baked-item" src="./assets/cupcake.png" alt="cupcake">
+          <img class="baked-item" src="./assets/muffin.png" alt="muffin">
+        </div>
+        <div class="shelf" alt="a shelf for bakery">
+          <img class="baked-item" src="./assets/croissant.png" alt="croissant">
+          <img class="baked-item" src="./assets/pancake.png" alt="pancake">
+        </div>
+
+        <button onclick="updatePage()">Press this button to display some fruit data</button>
+        <div id="fruitList" alt="dynamic fruit list ">
+          <div> Name of Citrus Fruits! </div>
+        </div>
       </div>
 
       <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
-      <!-- <button onclick="updatePage()">Press this button to display some fruit data</button> -->
+
     </div>
   </body>
 
